@@ -1,0 +1,661 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.31f1 (6b54b7616050) revision 7034039'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'ko' Physical Memory: 32625 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.31f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/SOOunity/SurviverOfOtome
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52080
+Successfully changed project path to: E:/SOOunity/SurviverOfOtome
+E:/SOOunity/SurviverOfOtome
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.31f1 (6b54b7616050)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/SOOunity/SurviverOfOtome/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Vendor:   
+    VRAM:     5980 MB
+    Driver:   30.0.14.9676
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56724
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007444 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 49.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.964 seconds
+Domain Reload Profiling:
+	ReloadAssembly (964ms)
+		BeginReloadAssembly (164ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (686ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (167ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (50ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003896 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 53.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.568 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1571ms)
+		BeginReloadAssembly (270ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (1199ms)
+			LoadAssemblies (218ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (412ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (449ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (54ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (33ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2200 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.9 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 2.967100 ms (FindLiveObjects: 0.176900 ms CreateObjectMapping: 0.084000 ms MarkObjects: 2.579500 ms  DeleteObjects: 0.125200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scenes
+  artifactKey: Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(131a6b21c8605f84396be9f6751fb6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df75b7d1a31c5b4f73fd45661b403b04') in 0.005259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/Unan/Pixel/Charater/Daemori_Character_All.png
+  artifactKey: Guid(688003959edd19c47aff2972ae9ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unan/Pixel/Charater/Daemori_Character_All.png using Guid(688003959edd19c47aff2972ae9ad110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156a489df83b24927cfbcd6c15ed8817') in 0.217051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000316 seconds.
+  path: Assets/Unan/Pixel
+  artifactKey: Guid(174c6b7161352ab48bdbecf46aad8676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unan/Pixel using Guid(174c6b7161352ab48bdbecf46aad8676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e36deca77e7f1787a1ee57f08c6078') in 0.003545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Unan/Pixel/Charater
+  artifactKey: Guid(d1914c99d09523f4294ddf810e1ac55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unan/Pixel/Charater using Guid(d1914c99d09523f4294ddf810e1ac55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ca4cee91d6d780691d1a7f1eb443d7e') in 0.003490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Unan/Pixel/Charater/Daemori_small_Character.png
+  artifactKey: Guid(3538c330f6d002f479831e3e2f64e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unan/Pixel/Charater/Daemori_small_Character.png using Guid(3538c330f6d002f479831e3e2f64e174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7baedb0517dc06b647da8a1bf26aff3') in 0.019609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Unan
+  artifactKey: Guid(be2805c153144b842bae8f31e716df87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Unan using Guid(be2805c153144b842bae8f31e716df87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8ca3f5e0983202153e8eaeea4831ab') in 0.002937 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007337 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1506ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1158ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (83ms)
+				ProcessInitializeOnLoadAttributes (235ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (58ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.8 MB.
+System memory in use after: 99.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.371900 ms (FindLiveObjects: 0.211500 ms CreateObjectMapping: 0.115300 ms MarkObjects: 2.926900 ms  DeleteObjects: 0.117400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 929.248430 seconds.
+  path: Assets/Gutty Kreum/Japanese School
+  artifactKey: Guid(f6db938c419b22941a48e0ff86a8c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School using Guid(f6db938c419b22941a48e0ff86a8c093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436251c5ecb8ce7d1dccdb9b49bc333a') in 0.007549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.142173 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles
+  artifactKey: Guid(045c91c5caa3a47419145aaea361bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles using Guid(045c91c5caa3a47419145aaea361bc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8da20d41c2d86dc9aed385eaa6aab6be') in 0.003783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.045087 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_0.asset
+  artifactKey: Guid(b1a86a8d06609c949bfe9f12d3175f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_0.asset using Guid(b1a86a8d06609c949bfe9f12d3175f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac099a01901be6982527e8548728d02') in 0.082625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000342 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_3.asset
+  artifactKey: Guid(751de975d8d58a6468161abc5105fcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_3.asset using Guid(751de975d8d58a6468161abc5105fcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be33fc766f913a495500bfe234de2fee') in 0.013900 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_32.asset
+  artifactKey: Guid(ea378d4896b81b84880d8a314af7f009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_32.asset using Guid(ea378d4896b81b84880d8a314af7f009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315d9f50afbcc51aadc6279f525d5003') in 0.012416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_46.asset
+  artifactKey: Guid(2a0c158de2a313e4d918c8b7918c7e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_46.asset using Guid(2a0c158de2a313e4d918c8b7918c7e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a275bd3b59c21c49cb13344385536f95') in 0.014362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_7.asset
+  artifactKey: Guid(d1b60c7e86c89f549b7cff79fbaf529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_7.asset using Guid(d1b60c7e86c89f549b7cff79fbaf529c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4ede29f28c2061ca259ee794b05c66') in 0.013276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_9.asset
+  artifactKey: Guid(6cbbdc7e1e53f434487f720a37898bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_9.asset using Guid(6cbbdc7e1e53f434487f720a37898bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67645be4c933e5177365e48084d29d9f') in 0.012095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_55.asset
+  artifactKey: Guid(aa8f234e2c9fb7942831ef55c3893460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_55.asset using Guid(aa8f234e2c9fb7942831ef55c3893460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8adbc99aea8bc4c3f2a7c342f4f5317') in 0.014768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_39.asset
+  artifactKey: Guid(5f89d28da1ba51e43b0d48da5c2d667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_39.asset using Guid(5f89d28da1ba51e43b0d48da5c2d667a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e9e9837cf60675f6a2cc076634da688') in 0.013865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_17.asset
+  artifactKey: Guid(7a1608bbe2f121b4daed1f281bac865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_17.asset using Guid(7a1608bbe2f121b4daed1f281bac865d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5378c52d9be4ef743e23befa584cf90') in 0.014807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000344 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_68.asset
+  artifactKey: Guid(ed3d9845be2d5e14ebf3cb8b5e024bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_68.asset using Guid(ed3d9845be2d5e14ebf3cb8b5e024bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9312949b898c940948d8d3b4739a8c78') in 0.013710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_56.asset
+  artifactKey: Guid(03cc04d3396e761449002cef605b598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_56.asset using Guid(03cc04d3396e761449002cef605b598c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9aa360341cbf56e1b9a6399e2f12761') in 0.013511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_15.asset
+  artifactKey: Guid(a75418b03a16af74b8cc8d0d3d03f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_15.asset using Guid(a75418b03a16af74b8cc8d0d3d03f887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b811b09770af8d08959827609abf09f0') in 0.014610 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_52.asset
+  artifactKey: Guid(ddef6ddf74176b241902fca3fabff21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_52.asset using Guid(ddef6ddf74176b241902fca3fabff21b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '497c309ff8248c5781b05ab53648111f') in 0.012588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_29.asset
+  artifactKey: Guid(75fc267a10617fb4c8c77379fb7c8c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_29.asset using Guid(75fc267a10617fb4c8c77379fb7c8c6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b78e2386a88324e016c959a75f0fbd6') in 0.013529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000521 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_16.asset
+  artifactKey: Guid(c611e694f2db87a4381a85d91bfb9cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_16.asset using Guid(c611e694f2db87a4381a85d91bfb9cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c2d988179d206dfbf4ef1f0dbe5a15') in 0.013031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_31.asset
+  artifactKey: Guid(577e15184535c9a418c05a678ee77026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_31.asset using Guid(577e15184535c9a418c05a678ee77026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf44fb6cc2c1b02875b39a9dd0d2fb7') in 0.014355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_4.asset
+  artifactKey: Guid(74030db02e6aff84c91f2f2bf88c750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_4.asset using Guid(74030db02e6aff84c91f2f2bf88c750e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407b991f608e5fea39fed181d1ad3272') in 0.012591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_48.asset
+  artifactKey: Guid(a61c42e2ca24d9349aabb6ebada2ce26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_48.asset using Guid(a61c42e2ca24d9349aabb6ebada2ce26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0572b404b3993922d51ea379de14dd') in 0.014154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_33.asset
+  artifactKey: Guid(ebb8dcc4855b9d848aa689ec77b6266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_33.asset using Guid(ebb8dcc4855b9d848aa689ec77b6266f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7c88d02ad6087e36a95488caa43115') in 0.013558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_20.asset
+  artifactKey: Guid(3e48a49bc90228a4399b820f3908e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_20.asset using Guid(3e48a49bc90228a4399b820f3908e49e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3e88dab957fab055e45aa25268192c') in 0.013139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_57.asset
+  artifactKey: Guid(4ada6ae6cb7ac82439b18472533770fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_57.asset using Guid(4ada6ae6cb7ac82439b18472533770fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67eb2a54a30f97832f4aeeeb9b75de83') in 0.013719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_45.asset
+  artifactKey: Guid(4ee9e2b4546ae3142aec106ac15c2193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_45.asset using Guid(4ee9e2b4546ae3142aec106ac15c2193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7774527f8be38a342d825a531018a135') in 0.015395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_42.asset
+  artifactKey: Guid(64ac21dacdabeda489ececa9b2f0c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_42.asset using Guid(64ac21dacdabeda489ececa9b2f0c003) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5a50264fa9aeac6f2e2c73bf15f7446') in 0.014097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000424 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_47.asset
+  artifactKey: Guid(a1786e2a6148f5d46b9812b0a1216a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_47.asset using Guid(a1786e2a6148f5d46b9812b0a1216a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57b866997363b36a0f7bcf7319a4b8c4') in 0.012770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_27.asset
+  artifactKey: Guid(800ba8d56a5b3a74ca086d73ad61ed78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_27.asset using Guid(800ba8d56a5b3a74ca086d73ad61ed78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54412f771b6a20d7c307bf02283af283') in 0.013036 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_40.asset
+  artifactKey: Guid(9702e2967f4a3e1448f9a60fd7774a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_40.asset using Guid(9702e2967f4a3e1448f9a60fd7774a7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143ab4f576201fedf8aedb545cc61e64') in 0.014856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_36.asset
+  artifactKey: Guid(d175e91baeb40e542b9572ac082dbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_36.asset using Guid(d175e91baeb40e542b9572ac082dbc22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5421ac22b79baaece57aaa1434302495') in 0.013795 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_41.asset
+  artifactKey: Guid(2a2fef1c8d36ee54ab61418b0a2ed00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_41.asset using Guid(2a2fef1c8d36ee54ab61418b0a2ed00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b9b7daaebef87347e7fd017a47e721f') in 0.012370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_69.asset
+  artifactKey: Guid(b38ba112dfb301044b35cecc95b8891e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_69.asset using Guid(b38ba112dfb301044b35cecc95b8891e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcdc520f1cd618ec96f1e72f41fd9f') in 0.012131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_51.asset
+  artifactKey: Guid(0b48dda94a942c14ea531c4ce71bc516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_51.asset using Guid(0b48dda94a942c14ea531c4ce71bc516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc9936763a17274026583762a24a063') in 0.013317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_64.asset
+  artifactKey: Guid(89470d5a7b09dde439a02930b5f0de62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_64.asset using Guid(89470d5a7b09dde439a02930b5f0de62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90f3d803bab648b797e31cb431fd5f0') in 0.013982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_66.asset
+  artifactKey: Guid(a329c3b696fc83441b1077bb2d82a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_66.asset using Guid(a329c3b696fc83441b1077bb2d82a72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc16d5ce81efefc760089a61d60c1924') in 0.012193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_67.asset
+  artifactKey: Guid(b1a07aab3087e7445bc7b973876ae4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_67.asset using Guid(b1a07aab3087e7445bc7b973876ae4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00b1bfcca1d5b71fb0c3ce0be88c952') in 0.016585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_24.asset
+  artifactKey: Guid(19bd36705d9bbbf4984bb28dd9f2fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_24.asset using Guid(19bd36705d9bbbf4984bb28dd9f2fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7499695e9bff2422f4da74a684b298b3') in 0.015892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_10.asset
+  artifactKey: Guid(66e51442324551f4f85a4edd532cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_10.asset using Guid(66e51442324551f4f85a4edd532cd1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ae0f5a22d4c8255cfc773c392cd5d45') in 0.015378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_34.asset
+  artifactKey: Guid(14a3f467d7ebbb440804e79f0e0fb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_34.asset using Guid(14a3f467d7ebbb440804e79f0e0fb695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b0ca10cb4fc4ac8c09471711696053') in 0.014410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_1.asset
+  artifactKey: Guid(b4e24e2cbdfef6a459c19ded404d01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_1.asset using Guid(b4e24e2cbdfef6a459c19ded404d01f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd8a2534f8d67ea8b9cd2f6be7d71ed') in 0.014866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_44.asset
+  artifactKey: Guid(9ac0cd443ed94574785311e02e4a7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_44.asset using Guid(9ac0cd443ed94574785311e02e4a7334) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157352a6e6dca59713efab3f73aad750') in 0.015686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_70.asset
+  artifactKey: Guid(745d87613c2501d45be1f63cbc94a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_70.asset using Guid(745d87613c2501d45be1f63cbc94a8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407d4298ddf29a2f817fde0614d35d63') in 0.013452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_37.asset
+  artifactKey: Guid(892a3bb857bdb1c4bb36aa3a873b8ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_37.asset using Guid(892a3bb857bdb1c4bb36aa3a873b8ad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac45aac50acfb078e893c755358c14e3') in 0.013637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_49.asset
+  artifactKey: Guid(a1d6e8743ed63f843803ecc0e065bbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_49.asset using Guid(a1d6e8743ed63f843803ecc0e065bbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dd5768598c5343c9aa9de7f2b37b35') in 0.014538 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_14.asset
+  artifactKey: Guid(aa2da8c8d2f63b849a20b74fb1609008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_14.asset using Guid(aa2da8c8d2f63b849a20b74fb1609008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73cf1a84b80bb15751902b9ac6ae82d9') in 0.015431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_62.asset
+  artifactKey: Guid(521347cc02735a540a701fc3ea7cf99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_62.asset using Guid(521347cc02735a540a701fc3ea7cf99f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6678a5304a08230c2354328697853cb3') in 0.013798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_26.asset
+  artifactKey: Guid(a34c9598304d517409bf30c971133557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_26.asset using Guid(a34c9598304d517409bf30c971133557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f55ad69f9caab2947511a988c4a0277') in 0.014607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000326 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_11.asset
+  artifactKey: Guid(90fe145aa9c646648b4d8ddb8655c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_11.asset using Guid(90fe145aa9c646648b4d8ddb8655c6ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c02bfd9812aa10ecbccac5c4a9bd53') in 0.012792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_50.asset
+  artifactKey: Guid(94b7b21232c590e4e84898ddbbfd507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_50.asset using Guid(94b7b21232c590e4e84898ddbbfd507c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf96df5d6a2e45c7b7dcb93755126ddd') in 0.013117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_30.asset
+  artifactKey: Guid(3667e7b70f31df34a8975ede36402551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_30.asset using Guid(3667e7b70f31df34a8975ede36402551) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2be3e0eb097516ce5bdae781aaa0a1') in 0.011961 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_35.asset
+  artifactKey: Guid(28eb6404969a4d240ac5c677d1316d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_35.asset using Guid(28eb6404969a4d240ac5c677d1316d3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b902d60082ea8660fd1d070c6cd9cf25') in 0.013871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_22.asset
+  artifactKey: Guid(6c6dbf7122f68774380037b3394f3e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_22.asset using Guid(6c6dbf7122f68774380037b3394f3e36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b21689fb43d0dfb954ae53f93c2e2808') in 0.014288 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_19.asset
+  artifactKey: Guid(e81a74834dde43f45909892f8abd4d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_19.asset using Guid(e81a74834dde43f45909892f8abd4d98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c56aaa8ea8562de83a01eff4f5f87c1') in 0.014231 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000392 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_38.asset
+  artifactKey: Guid(dbc64b67b9af5de4ea3a21fee2b40fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_38.asset using Guid(dbc64b67b9af5de4ea3a21fee2b40fc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9f2b2667a731ecc581758ea555ae08') in 0.014213 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_43.asset
+  artifactKey: Guid(7f6e964c7954b5244b64a82cd9030dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_43.asset using Guid(7f6e964c7954b5244b64a82cd9030dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44abf43c106d2553afd0f5dab6788642') in 0.011962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_63.asset
+  artifactKey: Guid(9fd00a61411b6fa4b8892623a81cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_63.asset using Guid(9fd00a61411b6fa4b8892623a81cc75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996b6d563b66384d2e309b9f4e2fc405') in 0.013701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_25.asset
+  artifactKey: Guid(7d405a91929ac6c4481fa3ad5b0003b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_25.asset using Guid(7d405a91929ac6c4481fa3ad5b0003b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '417ed2c8360fab997e977dea3309b23d') in 0.012423 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_6.asset
+  artifactKey: Guid(5c69d00b6cdab3141a599df5dbf38814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_6.asset using Guid(5c69d00b6cdab3141a599df5dbf38814) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '031ab9987d72924db11ed15d405be5ea') in 0.013854 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_5.asset
+  artifactKey: Guid(2a28c6554c00d264b8e74c216ade613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_5.asset using Guid(2a28c6554c00d264b8e74c216ade613b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e603174db6da03dc1a9d03de3019d9e5') in 0.013223 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_54.asset
+  artifactKey: Guid(fa8245ec0f2c3f64dbd07bcaacbbdc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_54.asset using Guid(fa8245ec0f2c3f64dbd07bcaacbbdc28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef87c53a136afbd196f6b455c83f0b28') in 0.012331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000348 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_8.asset
+  artifactKey: Guid(970f579ddaea3194cb67c7fd66da5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_8.asset using Guid(970f579ddaea3194cb67c7fd66da5f07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2eb4bb17dea69bcd97b601cb3eee543') in 0.013706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000527 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_12.asset
+  artifactKey: Guid(6925270d699d3b24d8c3af5a7b060150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_12.asset using Guid(6925270d699d3b24d8c3af5a7b060150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b17aa96a08a2dca901e22c52ec065608') in 0.013130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_28.asset
+  artifactKey: Guid(4f35cd37c335bc44f90754665777d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_28.asset using Guid(4f35cd37c335bc44f90754665777d244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62d1a5661cff40e42e15c08a9624d42e') in 0.013035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_61.asset
+  artifactKey: Guid(ed45381300480704f81bcdf76c3e31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_61.asset using Guid(ed45381300480704f81bcdf76c3e31eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5254ae422e279a6087b85bd8ba196f28') in 0.013398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_18.asset
+  artifactKey: Guid(2ef65d99a8a78ac4cb831d50d0e7b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_18.asset using Guid(2ef65d99a8a78ac4cb831d50d0e7b048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123d4b35e944a7d00ac158df16be159b') in 0.014073 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_23.asset
+  artifactKey: Guid(1e28c1f19fde84248a13ce71491b3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_23.asset using Guid(1e28c1f19fde84248a13ce71491b3681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbebdc7130cfa6bd8a5d43d2e1fc722') in 0.012046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_60.asset
+  artifactKey: Guid(13b89d0e6b835f843a0432637a85e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_60.asset using Guid(13b89d0e6b835f843a0432637a85e142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240d0706233f86af9ca9044b28292b3f') in 0.013351 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_2.asset
+  artifactKey: Guid(5a475609620fcfc4fa2f793b7d53dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_2.asset using Guid(5a475609620fcfc4fa2f793b7d53dcf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80bf4a96f14ac7e6094428597eacf4ea') in 0.014396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_13.asset
+  artifactKey: Guid(698f452bcea3822408e37cace870a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_13.asset using Guid(698f452bcea3822408e37cace870a2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a496abdae3a74d09fc04cfa611099f7') in 0.017212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_59.asset
+  artifactKey: Guid(bc42b48a62f4a40468b67fd9aa2a3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_59.asset using Guid(bc42b48a62f4a40468b67fd9aa2a3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3a24e4b060a2d902d412ffa7df301a7') in 0.012694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_58.asset
+  artifactKey: Guid(c75cb6557b1775844bf0ec54bba24e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_58.asset using Guid(c75cb6557b1775844bf0ec54bba24e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cfe33b561f4c0f2a0e0ded660452a52') in 0.013680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000660 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_21.asset
+  artifactKey: Guid(2573125646a2b7c49ac677759db7e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_21.asset using Guid(2573125646a2b7c49ac677759db7e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457bbfb4dc517cdd2d40a0bb40333675') in 0.015149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_53.asset
+  artifactKey: Guid(a863b94ced6f13c479936c6bf4737140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_53.asset using Guid(a863b94ced6f13c479936c6bf4737140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77ee69a7259ed26bd39b3a410c47e64') in 0.013047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_65.asset
+  artifactKey: Guid(184c9a657dcb5b449b38a73ad1bf891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Gutty Kreum/Japanese School/Tiles/Fulltilemap_65.asset using Guid(184c9a657dcb5b449b38a73ad1bf891f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15734c81cc09e4468a00de38c604081c') in 0.014347 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
