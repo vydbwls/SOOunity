@@ -25,6 +25,8 @@ public class MovingObjects : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        DontDestroyOnLoad(this.gameObject);
+
         boxCollider = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
     }
