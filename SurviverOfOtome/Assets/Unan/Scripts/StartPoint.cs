@@ -1,25 +1,25 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class StartPoint : MonoBehaviour
 {
-    public string startPoint; // ÀÌµ¿µÇ¾î¿Â ¸ÊÀÌ¸§À» Ã¼Å©ÇÏ±â À§ÇÑ º¯¼ö
-    private MovingObjects thePlayer; // Ä³¸¯ÅÍ °´Ã¼ °¡Á®¿À±â À§ÇÑ º¯¼ö
-    private CameraManager theCamera; // ÀÚ¿¬½º·¯¿î Ä«¸Ş¶ó ÀÌµ¿À» À§ÇØ °¡Á®¿Â Ä«¸Ş¶ó º¯¼ö
+    public string startPoint; // ì´ë™ë˜ì–´ì˜¨ ë§µì´ë¦„ì„ ì²´í¬í•˜ê¸° ìœ„í•œ ë³€ìˆ˜
+    private MovingObjects thePlayer; // ìºë¦­í„° ê°ì²´ ê°€ì ¸ì˜¤ê¸° ìœ„í•œ ë³€ìˆ˜
+    private CameraManager theCamera; // ìì—°ìŠ¤ëŸ¬ìš´ ì¹´ë©”ë¼ ì´ë™ì„ ìœ„í•´ ê°€ì ¸ì˜¨ ì¹´ë©”ë¼ ë³€ìˆ˜
 
     // Start is called before the first frame update
     void Start()
     {
-        theCamera = FindObjectOfType<CameraManager>(); // Ä«¸Ş¶ó º¯¼ö¿¡ Ä«¸Ş¶ó °´Ã¼¸¦ ÇÒ´ç
-        thePlayer = FindObjectOfType<MovingObjects>(); // Ä³¸¯ÅÍ º¯¼ö¿¡ ÇöÀç Ä³¸¯ÅÍ °´Ã¼¸¦ ÇÒ´ç
+        theCamera = FindObjectOfType<CameraManager>(); // ì¹´ë©”ë¼ ë³€ìˆ˜ì— ì¹´ë©”ë¼ ê°ì²´ë¥¼ í• ë‹¹
+        thePlayer = FindObjectOfType<MovingObjects>(); // ìºë¦­í„° ë³€ìˆ˜ì— í˜„ì¬ ìºë¦­í„° ê°ì²´ë¥¼ í• ë‹¹
 
 
         if (startPoint == thePlayer.currentMapName)
         {
-            // Ä«¸Ş¶ó ÀÌµ¿
+            // ì¹´ë©”ë¼ ì´ë™
             theCamera.transform.position = new Vector3(this.transform.position.x, this.transform.position.y, theCamera.transform.position.z);
-            // Ä³¸¯ÅÍ ÀÌµ¿
+            // ìºë¦­í„° ì´ë™
             thePlayer.transform.position = this.transform.position;
         }
     }

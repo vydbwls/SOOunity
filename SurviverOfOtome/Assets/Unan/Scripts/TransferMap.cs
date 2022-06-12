@@ -1,12 +1,12 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class TransferMap : MonoBehaviour
 {
-    public string transferMapName; //ÀÌµ¿ÇÒ ¸ÊÀÌ¸§       
-    public Transform target; // ÀÌµ¿ÇÒ Å¸°Ù ¼³Á¤
+    public string transferMapName; //ì´ë™í•  ë§µì´ë¦„       
+    public Transform target; // ì´ë™í•  íƒ€ê²Ÿ ì„¤ì •
 
     private MovingObjects thePlayer;
     private CameraManager theCamera;
@@ -18,7 +18,7 @@ public class TransferMap : MonoBehaviour
         theCamera = FindObjectOfType<CameraManager>();
     }
 
-    // ¹Ú½º Äİ¶óÀÌ´õ¿¡ ´ê´Â ¼ø°£ ÀÌº¥Æ® ¹ß»ı
+    // ë°•ìŠ¤ ì½œë¼ì´ë”ì— ë‹¿ëŠ” ìˆœê°„ ì´ë²¤íŠ¸ ë°œìƒ
     private void OnTriggerEnter2D(Collider2D collision)
     {
 

@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -13,7 +13,7 @@ public class CameraManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject); // °ÔÀÓ ¿ÀºêÁ§Æ® ÆÄ±«±İÁö
+        DontDestroyOnLoad(this.gameObject); // ê²Œì„ ì˜¤ë¸Œì íŠ¸ íŒŒê´´ê¸ˆì§€
     }
     // Update is called once per frame
     void Update()

@@ -1,30 +1,30 @@
-using System.Collections;
+ï»¿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class MovingObjects : MonoBehaviour
 {
-    static public MovingObjects instance; // instanceÀÇ °ªÀ» °øÀ¯
+    static public MovingObjects instance; // instanceì˜ ê°’ì„ ê³µìœ 
 
-    public string currentMapName; // ÀÌµ¿ÇÒ ¸Ê ÀÌ¸§ ÀúÀå
+    public string currentMapName; // ì´ë™í•  ë§µ ì´ë¦„ ì €ì¥
 
-    // BoxCollider ÄÄÆ÷³ÍÆ®¸¦ °¡Á®¿À±â À§ÇØ ¼±¾ğ
+    // BoxCollider ì»´í¬ë„ŒíŠ¸ë¥¼ ê°€ì ¸ì˜¤ê¸° ìœ„í•´ ì„ ì–¸
     private BoxCollider2D boxCollider;
 
-    // Åë°úºÒ°¡´ÉÇÑ ·¹ÀÌ¾î¸¦ ¼³Á¤ÇØÁÖ±â À§ÇØ ¼±¾ğ
+    // í†µê³¼ë¶ˆê°€ëŠ¥í•œ ë ˆì´ì–´ë¥¼ ì„¤ì •í•´ì£¼ê¸° ìœ„í•´ ì„ ì–¸
     public LayerMask layerMask;
 
-    public float speed; // ¿òÁ÷ÀÌ´Â ¼Óµµ Á¤ÀÇ
-    private Vector3 vector; // ¿òÁ÷ÀÌ´Â ¹æÇâ Á¤ÀÇ
+    public float speed; // ì›€ì§ì´ëŠ” ì†ë„ ì •ì˜
+    private Vector3 vector; // ì›€ì§ì´ëŠ” ë°©í–¥ ì •ì˜
 
-    public float runSpeed; // ShiftÅ° ÀÔ·Â½Ã Áõ°¡ÇÏ´Â ¼Óµµ
-    private float applyRunSpeed; // ShiftÅ° ÀÔ·Â½Ã ¿¬»êµÇ´Â Áõ°¡ ¼Óµµ
-    private bool applyRunFlag = false; // ShiftÅ° ÀÔ·Â¿©ºÎ
+    public float runSpeed; // Shiftí‚¤ ì…ë ¥ì‹œ ì¦ê°€í•˜ëŠ” ì†ë„
+    private float applyRunSpeed; // Shiftí‚¤ ì…ë ¥ì‹œ ì—°ì‚°ë˜ëŠ” ì¦ê°€ ì†ë„
+    private bool applyRunFlag = false; // Shiftí‚¤ ì…ë ¥ì—¬ë¶€
 
-    public int walkCount; // ¹æÇâÅ° ÀÔ·Â½Ã ÀÌµ¿°ªÀ» Á¤ÇÏ±â À§ÇÑ °ª
-    private int currentWalkCount; // ÀÌµ¿°ª ¸®¼ÂÀ» À§ÇÑ °ª
+    public int walkCount; // ë°©í–¥í‚¤ ì…ë ¥ì‹œ ì´ë™ê°’ì„ ì •í•˜ê¸° ìœ„í•œ ê°’
+    private int currentWalkCount; // ì´ë™ê°’ ë¦¬ì…‹ì„ ìœ„í•œ ê°’
 
-    private bool canMove = true; // ¹æÇâÅ° ÀÌµ¿ ¹İº¹½ÇÇà ¹æÁö¸¦ À§ÇÑ °ª
+    private bool canMove = true; // ë°©í–¥í‚¤ ì´ë™ ë°˜ë³µì‹¤í–‰ ë°©ì§€ë¥¼ ìœ„í•œ ê°’
 
     private Animator animator;
 
@@ -34,9 +34,9 @@ public class MovingObjects : MonoBehaviour
     {
         if (instance == null)
         {
-            DontDestroyOnLoad(this.gameObject); // °ÔÀÓ ¿ÀºêÁ§Æ® ÆÄ±«±İÁö
+            DontDestroyOnLoad(this.gameObject); // ê²Œì„ ì˜¤ë¸Œì íŠ¸ íŒŒê´´ê¸ˆì§€
 
-            // ¾Ö´Ï¸ŞÀÌÅÍ ÄÄÆ÷³ÍÆ® °¡Á®¿À±â
+            // ì• ë‹ˆë©”ì´í„° ì»´í¬ë„ŒíŠ¸ ê°€ì ¸ì˜¤ê¸°
             boxCollider = GetComponent<BoxCollider2D>();
             animator = GetComponent<Animator>();
             instance = this;
