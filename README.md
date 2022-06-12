@@ -23,7 +23,7 @@
 ## 카메라 동작 구현 코드
 ### [CameraManager](https://github.com/JeonDayeon/SOOunity/blob/8fe593be4c146a1c26142b23a383ff09a823e354/SurviverOfOtome/Assets/Unan/Scripts/CameraManager.cs)
 
-## 맵이동 구현 
+## 맵이동 구현 코드
 ### [TransferMap](https://github.com/JeonDayeon/SOOunity/blob/main/SurviverOfOtome/Assets/Unan/Scripts/TransferMap.cs)
 * * *
 <br>
