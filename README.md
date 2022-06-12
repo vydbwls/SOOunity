@@ -9,6 +9,7 @@
 - SoundManager 구현 진행 중
 - 일부 UI 제작 진행 중(스크립트 및 설정)
 
+
 ## 캐릭터 이동 구현
 ### [MoveObject](https://github.com/JeonDayeon/SOOunity/blob/d3e6e1b3c6fcfb5493c52bb2fdde77c8c439d1cf/SurviverOfOtome/Assets/Unan/Scripts/MovingObjects.cs)
 
