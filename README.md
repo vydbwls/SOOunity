@@ -1,5 +1,5 @@
 여성향 게임에서 살아남기
-=
+==
 - - -
 ### 2022.06.01 작업현황
 - 캐릭터 이동 구현 완료
@@ -23,4 +23,5 @@
 
 
 ## 현재 인게임 화면
-![image](https://user-images.githubusercontent.com/95409013/173210056-14da6bb2-655a-487a-a338-43cb10bc1ba6.png)
+![image](https://user-images.githubusercontent.com/95409013/173210094-20e9481f-1ba1-4a2c-9624-cd6b5ec3b88d.png)
+
