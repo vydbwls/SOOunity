@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class CameraManager : MonoBehaviour
 {
+    static public CameraManager instance;
+
     public GameObject target;
     public float moveSpeed;
     private Vector3 targetPosition;
-    
+
     // Start is called before the first frame update
     void Start()
     {
-        DontDestroyOnLoad(this.gameObject);
+        DontDestroyOnLoad(this.gameObject); // 게임 오브젝트 파괴금지
     }
-
     // Update is called once per frame
     void Update()
     {
