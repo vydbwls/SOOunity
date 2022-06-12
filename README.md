@@ -22,6 +22,7 @@
 ### [TransferMap](https://github.com/JeonDayeon/SOOunity/blob/main/SurviverOfOtome/Assets/Unan/Scripts/TransferMap.cs)
 
 <br>
+
 ## 현재 인게임 화면
-![image](https://user-images.githubusercontent.com/95409013/173210094-20e9481f-1ba1-4a2c-9624-cd6b5ec3b88d.png)
+![image](https://user-images.githubusercontent.com/95409013/173210175-9ef3427c-8837-485e-b663-ee71edced1da.png)
 
