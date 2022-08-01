@@ -10,10 +10,16 @@ public class CameraManager : MonoBehaviour
     public float moveSpeed;
     private Vector3 targetPosition;
 
+    private MovingObjects movingObj;
+
     // Start is called before the first frame update
     void Start()
     {
+        movingObj = FindObjectOfType<MovingObjects>();
+        moveSpeed = movingObj.runSpeed * 350;
+
         DontDestroyOnLoad(this.gameObject); // 게임 오브젝트 파괴금지
+
     }
     // Update is called once per frame
     void Update()

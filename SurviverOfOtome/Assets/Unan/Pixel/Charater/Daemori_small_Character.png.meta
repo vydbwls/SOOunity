@@ -130,10 +130,10 @@ TextureImporter:
       name: Daemori_small_Character_0
       rect:
         serializedVersion: 2
-        x: 7
+        x: 5
         y: 168
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,10 +151,10 @@ TextureImporter:
       name: Daemori_small_Character_1
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 168
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,10 +172,10 @@ TextureImporter:
       name: Daemori_small_Character_2
       rect:
         serializedVersion: 2
-        x: 92
+        x: 90
         y: 169
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,7 +196,7 @@ TextureImporter:
         x: 4
         y: 112
         width: 21
-        height: 47
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +214,10 @@ TextureImporter:
       name: Daemori_small_Character_4
       rect:
         serializedVersion: 2
-        x: 51
+        x: 50
         y: 112
-        width: 11
-        height: 49
+        width: 15
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,7 +238,7 @@ TextureImporter:
         x: 88
         y: 112
         width: 21
-        height: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,7 +259,7 @@ TextureImporter:
         x: 4
         y: 56
         width: 21
-        height: 48
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: Daemori_small_Character_7
       rect:
         serializedVersion: 2
-        x: 51
+        x: 48
         y: 56
-        width: 11
-        height: 49
+        width: 15
+        height: 52
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,7 +301,7 @@ TextureImporter:
         x: 88
         y: 56
         width: 21
-        height: 47
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: Daemori_small_Character_9
       rect:
         serializedVersion: 2
-        x: 8
+        x: 6
         y: 0
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: Daemori_small_Character_10
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: Daemori_small_Character_11
       rect:
         serializedVersion: 2
-        x: 92
+        x: 90
         y: 0
-        width: 13
-        height: 48
+        width: 17
+        height: 51
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
