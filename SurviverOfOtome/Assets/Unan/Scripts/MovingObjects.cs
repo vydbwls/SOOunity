@@ -14,6 +14,12 @@ public class MovingObjects : MonoBehaviour
     // 통과불가능한 레이어를 설정해주기 위해 선언
     public LayerMask layerMask;
 
+    //오디오
+    public AudioClip walkSound_1;
+    public AudioClip walkSound_2;
+    private AudioSource audioSource;
+    public int isound;
+
     public float speed; // 움직이는 속도 정의
     private Vector3 vector; // 움직이는 방향 정의
 
@@ -38,6 +44,7 @@ public class MovingObjects : MonoBehaviour
 
             // 애니메이터 컴포넌트 가져오기
             boxCollider = GetComponent<BoxCollider2D>();
+            audioSource = GetComponent<AudioSource>();
             animator = GetComponent<Animator>();
             instance = this;
         }
@@ -104,6 +111,24 @@ public class MovingObjects : MonoBehaviour
 
                 currentWalkCount++;
                 yield return new WaitForSeconds(0.01f);
+
+                if(currentWalkCount % 10 == 2)
+                {
+                    int temp = isound;
+                    switch(temp)
+                    {
+                        case 1:
+                            audioSource.clip = walkSound_1;
+                            audioSource.Play();
+                            break;
+
+                        case 2:
+                            audioSource.clip = walkSound_2;
+                            audioSource.Play();
+                            break;
+                
+                    }
+                }
             }
             currentWalkCount = 0;
         }
