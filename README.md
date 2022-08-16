@@ -38,8 +38,10 @@
 <br>
 
 * * *
-## 현재 인게임 화면
+## 인게임 화면
+2022.06.01
 ![image](https://user-images.githubusercontent.com/95409013/173210175-9ef3427c-8837-485e-b663-ee71edced1da.png)
+2022.08.16
 ![image](https://user-images.githubusercontent.com/95409013/184805476-70ff440b-3376-4be8-917e-14eb26b0e36f.png)
 ---
 ## 기능 구현 영상
