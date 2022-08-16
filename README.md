@@ -12,6 +12,10 @@
 - SoundManager 구현 진행 중
 - 일부 UI 제작 진행 중(스크립트 및 설정)
 
+### + 2022.08.16 작업현황
+- BGM Manager 구현
+- SoundEffect 적용
+- Script UI 일부 캔버스 배치
 * * *
 <br>
 
