@@ -40,7 +40,8 @@
 * * *
 ## 현재 인게임 화면
 ![image](https://user-images.githubusercontent.com/95409013/184805476-70ff440b-3376-4be8-917e-14eb26b0e36f.png)
-
+---
+## 기능 구현 영상
 ### Walk
 ![walk](https://user-images.githubusercontent.com/95409013/173212974-449be5bc-cba5-4c35-82d8-7452b0fb435d.gif)
 
