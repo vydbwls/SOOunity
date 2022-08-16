@@ -4,7 +4,7 @@
 <br>
 
 - - -
-### 2022.06.01 작업현황
+### + 2022.06.01 작업현황
 - 캐릭터 이동 구현 완료
 - 카메라 동작 구현 완료
 - 충돌 구현 완료(Boxcollider 이용)
@@ -12,6 +12,11 @@
 - SoundManager 구현 진행 중
 - 일부 UI 제작 진행 중(스크립트 및 설정)
 
+### + 2022.08.16 작업현황
+- BGM 재생 구현
+- 캐릭터 이동시 효과음 적용
+- Script UI 일부 캔버스 배치
+- 스크립트 구현 진행 중
 * * *
 <br>
 
@@ -26,6 +31,8 @@
 ## 맵이동 구현 코드
 ### [TransferMap.cs](https://github.com/JeonDayeon/SOOunity/blob/main/SurviverOfOtome/Assets/Unan/Scripts/TransferMap.cs)
 
+## BGM 재생 구현 코드
+### [BGMmanager.cs]
 <br>
 
 * * *
