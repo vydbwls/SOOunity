@@ -30,6 +30,8 @@
 ## 맵이동 구현 코드
 ### [TransferMap.cs](https://github.com/JeonDayeon/SOOunity/blob/main/SurviverOfOtome/Assets/Unan/Scripts/TransferMap.cs)
 
+## BGM 재생 구현 코드
+### [BGMmanager.cs]
 <br>
 
 * * *
