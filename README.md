@@ -13,6 +13,8 @@
 - 일부 UI 제작 진행 중(스크립트 및 설정)
 
 ### + 2022.08.16 작업현황
+- 카메라 영역 재설정
+- 플레이어 스프라이트 변경
 - BGM 재생 구현
 - 캐릭터 이동시 효과음 적용
 - Script UI 일부 캔버스 배치
@@ -32,13 +34,17 @@
 ### [TransferMap.cs](https://github.com/JeonDayeon/SOOunity/blob/main/SurviverOfOtome/Assets/Unan/Scripts/TransferMap.cs)
 
 ## BGM 재생 구현 코드
-### [BGMmanager.cs]
+### [BGMmanager.cs](SurviverOfOtome/Assets/Unan/Scripts/BGMmanager.cs)
 <br>
 
 * * *
-## 현재 인게임 화면
+## 인게임 화면
 ![image](https://user-images.githubusercontent.com/95409013/173210175-9ef3427c-8837-485e-b663-ee71edced1da.png)
-
+2022.06.01<br/>
+![image](https://user-images.githubusercontent.com/95409013/184805476-70ff440b-3376-4be8-917e-14eb26b0e36f.png)
+2022.08.16<br/>
+---
+## 기능 구현 영상
 ### Walk
 ![walk](https://user-images.githubusercontent.com/95409013/173212974-449be5bc-cba5-4c35-82d8-7452b0fb435d.gif)
 
