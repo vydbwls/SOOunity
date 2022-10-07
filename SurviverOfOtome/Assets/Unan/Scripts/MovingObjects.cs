@@ -13,7 +13,7 @@ public class MovingObjects : MonoBehaviour
 
     // 통과불가능한 레이어를 설정해주기 위해 선언
     public LayerMask layerMask;
-
+    public LayerMask layerMaskObj;
     //오디오
     public AudioClip walkSound_1;
     public AudioClip walkSound_2;
@@ -32,10 +32,15 @@ public class MovingObjects : MonoBehaviour
 
     private bool canMove = true; // 방향키 이동 반복실행 방지를 위한 값
 
-    private Animator animator;
+    private Animator animator; //애니메이션
+    public GameObject ScanObject; //오브젝트 스캔
 
-
+    private GameManager theGame;
     // Start is called before the first frame update
+    void Awake()
+    {
+        theGame = FindObjectOfType<GameManager>();
+    }
     void Start()
     {
         if (instance == null)
@@ -53,9 +58,9 @@ public class MovingObjects : MonoBehaviour
             Destroy(this.gameObject);
         }
     }
-            IEnumerator MoveCoroutine()
+    IEnumerator MoveCoroutine()
     {
-        while(Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
+        while (Input.GetAxisRaw("Vertical") != 0 || Input.GetAxisRaw("Horizontal") != 0)
         {
             if (Input.GetKey(KeyCode.LeftShift))
             {
@@ -71,7 +76,7 @@ public class MovingObjects : MonoBehaviour
 
             vector.Set(Input.GetAxisRaw("Horizontal"), Input.GetAxisRaw("Vertical"), transform.position.z);
 
-            if(vector.x != 0)
+            if (vector.x != 0)
             {
                 vector.y = 0;
             }
@@ -80,16 +85,25 @@ public class MovingObjects : MonoBehaviour
             animator.SetFloat("DirY", vector.y);
 
             RaycastHit2D hit;
+            RaycastHit2D hitObj;
+            
 
             Vector2 start = transform.position;
             Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y * speed * walkCount);
 
             boxCollider.enabled = false;
             hit = Physics2D.Linecast(start, end, layerMask);
+            hitObj = Physics2D.Linecast(start, end, layerMaskObj);
             boxCollider.enabled = true;
 
-            if (hit.transform != null) break;
+            if (hit.transform != null ) break;
 
+            if (hitObj.transform != null)
+            {
+                Debug.Log("hit");
+                ScanObject = hitObj.collider.gameObject;
+                break;
+            }
             animator.SetBool("Walking", true);
 
             while (currentWalkCount < walkCount)
@@ -112,10 +126,10 @@ public class MovingObjects : MonoBehaviour
                 currentWalkCount++;
                 yield return new WaitForSeconds(0.01f);
 
-                if(currentWalkCount % 10 == 2)
+                if (currentWalkCount % 10 == 2)
                 {
                     int temp = isound;
-                    switch(temp)
+                    switch (temp)
                     {
                         case 1:
                             audioSource.clip = walkSound_1;
@@ -126,7 +140,7 @@ public class MovingObjects : MonoBehaviour
                             audioSource.clip = walkSound_2;
                             audioSource.Play();
                             break;
-                
+
                     }
                 }
             }
@@ -136,11 +150,11 @@ public class MovingObjects : MonoBehaviour
         animator.SetBool("Walking", false);
         canMove = true;
     }
-        
+
     // Update is called once per frame
     void Update()
     {
-        if(canMove)
+        if (canMove)
         {
             if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
             {
@@ -149,5 +163,10 @@ public class MovingObjects : MonoBehaviour
             }
         }
 
+        if (Input.GetKeyDown(KeyCode.Space) && ScanObject != null)
+        {
+            Debug.Log("대화창 OK");
+            theGame.Action(ScanObject);
+        }
     }
 }
