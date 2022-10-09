@@ -8,10 +8,10 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Object
   - Water
   - UI
-  - Object
+  - Event
   - 
   - NoPassing
   - 
@@ -40,4 +40,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: funiture1
+    uniqueID: 2133557143
+    locked: 0
+  - name: character
+    uniqueID: 2209612227
+    locked: 0
+  - name: furniture2
+    uniqueID: 1899868285
     locked: 0
