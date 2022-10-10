@@ -21,18 +21,23 @@ public class GameManager : MonoBehaviour
     //Event--------------------------------------
     public GameObject EventDialoguePannel;
     public Text EventText;
+    public int Eventindex;
     public bool isEvent;
+    public EventManager eventmanager;
+
     void Awake()
     {
         isTalk = false;
     }
     void Update()
     {
-        if (isEvent)
+        if(Input.GetKeyDown(KeyCode.Space) && isEvent)
+        {
             Event();
+        }
 
     }
-    // Start is called before the first frame update
+
     public void Action(GameObject scanobj)
     {
         scanObject = scanobj;
@@ -77,7 +82,23 @@ public class GameManager : MonoBehaviour
 
     public void Event()
     {
-        Debug.Log("이벤트");
+        string eventData = eventmanager.GetEvent(Eventindex);
         EventDialoguePannel.SetActive(isEvent);
+        EventText.text = eventData;
+        //Debug.Log("이벤트");
+        //eventmanager.GetEvent();
+
+        if (eventData == null)
+        {
+            isEvent = false;
+            Eventindex = 0;
+            EventDialoguePannel.SetActive(isEvent);
+            return;
+        }
+
+        else
+        {
+            Eventindex += 1;
+        }
     }
 }

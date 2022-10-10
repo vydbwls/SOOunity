@@ -88,7 +88,7 @@ public class MovingObjects : MonoBehaviour
 
             RaycastHit2D hit;
             RaycastHit2D hitObj;
-            RaycastHit2D hitEvent;
+            //RaycastHit2D hitEvent;
 
             Vector2 start = transform.position;
             Vector2 end = start + new Vector2(vector.x * speed * walkCount, vector.y * speed * walkCount);

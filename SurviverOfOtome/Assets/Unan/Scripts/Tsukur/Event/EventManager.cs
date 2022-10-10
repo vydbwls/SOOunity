@@ -4,30 +4,50 @@ using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    Dictionary<int, string[]> EventData;
-    public GameObject[] EventImage;
+    List<Dictionary<string, object>> text;
 
+    public GameObject[] EventImage;
+    public int id;
+    public int EventIndex;
+
+    public CSVReader CSVReader;
     public GameObject scanEventObject;
+
+    public GameManager theGame;
 
     private void Awake()
     {
-        EventData = new Dictionary<int, string[]>();
+        EventIndex = 0;
+        GenerateData();
     }
 
-    private void EObjDestroy()
+    public void GenerateData()
     {
-        
+        if(id == 1)
+        {
+            text = CSVReader.Read("Tutorial1");
+        }
+
+        else if(id == 2)
+        {
+            text = CSVReader.Read("Tutorial2");
+        }
+    }
+    public string GetEvent(int eventindex)
+    {
+        GenerateData();
+        EventIndex = eventindex;
+        if (EventIndex == text.Count)
+        {
+            return null;
+        }
+        else
+        {
+            return ((string)text[EventIndex]["Content"]);
+        }
+
     }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
