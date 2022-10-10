@@ -9,6 +9,6 @@ EditorBuildSettings:
     path: Assets/Scenes/map2.unity
     guid: 6c0075331133e0243b03f2ba7bb81e01
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Tsukur/VisualNovel.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
