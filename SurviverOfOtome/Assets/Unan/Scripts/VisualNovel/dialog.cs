@@ -8,9 +8,9 @@ public class dialog_info
     public string name;
     [TextArea(3, 5)]
     public string content;
+    public string faceinfo;
     public bool check_read;
 }
-
 [System.Serializable]
 public class Dialog_cycle
 {
@@ -23,7 +23,6 @@ public class Dialog_cycle
 
 public class dialog : MonoBehaviour
 {
-    [SerializeField]
     public static dialog instance = null;
     public List<Dialog_cycle> dialog_cycles = new List<Dialog_cycle>(); //대화 지문 그룹
     public Queue<string> text_seq = new Queue<string>();                //대화 지문들의 내용을 큐로 저장한다.(끝점을 쉽게 판단하기 위해)
