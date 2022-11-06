@@ -38,6 +38,7 @@ public class MovingObjects : MonoBehaviour
     public GameObject ScanObject; //오브젝트 스캔
 
     private GameManager theGame;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -100,14 +101,24 @@ public class MovingObjects : MonoBehaviour
 
             boxCollider.enabled = true;
 
-            if (hit.transform != null ) break;
+            if (hit.transform != null)
+            {
+                ScanObject = null;
+                break;
+            }
 
-            if (hitObj.transform != null)
+            else if (hitObj.transform != null)
             {
                 Debug.Log("hit");
                 ScanObject = hitObj.collider.gameObject;
                 break;
             }
+
+            else
+            {
+                ScanObject = null;
+            }
+
 
             //if(hitEvent.transform != null)
             //{
@@ -165,12 +176,14 @@ public class MovingObjects : MonoBehaviour
     {
         if (canMove)
         {
-            if (Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)
+            if (((Input.GetAxisRaw("Horizontal") != 0 || Input.GetAxisRaw("Vertical") != 0)) && !theGame.isEvent && !theGame.isTalk)
             {
                 canMove = false;
                 StartCoroutine(MoveCoroutine());
+                Debug.Log(canMove);
             }
         }
+
 
         if (Input.GetKeyDown(KeyCode.Space) && ScanObject != null)
         {

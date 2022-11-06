@@ -15,20 +15,25 @@ public class EventManager : MonoBehaviour
 
     public GameManager theGame;
 
+    //questmanager 변수 관리-----------------------
+    QuestManager questManager;
+    int SetQuestId;
+
     private void Awake()
     {
+        questManager = FindObjectOfType<QuestManager>();
         EventIndex = 0;
         GenerateData();
     }
 
     public void GenerateData()
     {
-        if(id == 1)
+        if (id == 1)
         {
             text = CSVReader.Read("Tutorial1");
         }
 
-        else if(id == 2)
+        else if (id == 2)
         {
             text = CSVReader.Read("Tutorial2");
         }
@@ -39,6 +44,7 @@ public class EventManager : MonoBehaviour
         EventIndex = eventindex;
         if (EventIndex == text.Count)
         {
+            EndEvent();
             return null;
         }
         else
@@ -48,6 +54,14 @@ public class EventManager : MonoBehaviour
 
     }
 
-    
+
+    public void EndEvent()
+    {
+        if(id == 1)
+        {
+            questManager.questId = 10;
+        }
+    }
+
 
 }

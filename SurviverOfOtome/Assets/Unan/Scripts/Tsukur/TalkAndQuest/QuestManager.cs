@@ -18,9 +18,7 @@ public class QuestManager : MonoBehaviour
 
     void GenerateData()
     {
-        questList.Add(10, new QuestData("한숨", new int[] {2000, 3000, 4000}));
-        questList.Add(20, new QuestData("물건 찾아주기", new int[] { 7000, 3000 }));
-        questList.Add(30, new QuestData("끝", new int[] { }));
+        questList.Add(10, new QuestData("양호실 조사", new int[] {3000, 9000}));
     }
 
     public int GetQuestTalkIndex(int id)
@@ -35,11 +33,16 @@ public class QuestManager : MonoBehaviour
 
         ControlObject();
 
-        if (questActionIndex == questList[questId].npcId.Length)
-            NextQuest();
+        //if (questActionIndex == questList[questId].npcId.Length)
+        //    NextQuest();
 
         return questList[questId].questName;
 
+    }
+
+    public string CheckQuest()
+    {
+        return questList[questId].questName;
     }
 
     void NextQuest()
@@ -53,10 +56,6 @@ public class QuestManager : MonoBehaviour
         switch(questId)
         {
             case 10:
-                if (questActionIndex == 2)
-                {
-                    questObject[0].SetActive(true);
-                }
                 break;
 
             case 20:

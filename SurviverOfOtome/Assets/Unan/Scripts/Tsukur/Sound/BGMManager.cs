@@ -18,7 +18,6 @@ public class BGMManager : MonoBehaviour
 
     private AudioSource audioSource;
 
-    public AudioClip[] clips;
     public string bgmName;
     // Start is called before the first frame update
     void Start()
@@ -38,7 +37,7 @@ public class BGMManager : MonoBehaviour
         {
             if(bgmName == BGM[i].name)
             {
-                audioSource.clip = clips[i];
+                audioSource.clip = BGM[i].clip;
                 audioSource.Play();
             }
         }
