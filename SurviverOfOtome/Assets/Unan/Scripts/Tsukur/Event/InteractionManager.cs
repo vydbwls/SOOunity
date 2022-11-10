@@ -24,10 +24,16 @@ public class InteractionManager : MonoBehaviour
             {
                 if (!interobj[i].isTransform)
                 {
-                    Debug.Log(scanid);
-                    interobj[i].original.SetActive(false);
-                    interobj[i].transform.SetActive(true);
-                    interobj[i].isTransform = true;
+                    if (interobj[i].transform != null)
+                    {
+                        Debug.Log(scanid);
+                        interobj[i].original.SetActive(false);
+                        interobj[i].transform.SetActive(true);
+                        interobj[i].isTransform = true;
+                    }
+
+                    else
+                        interobj[i].original.SetActive(false);
                 }
             
                 else if(interobj[i].isOrigin && !istalk)

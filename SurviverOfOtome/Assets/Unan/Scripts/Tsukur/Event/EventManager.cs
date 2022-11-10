@@ -54,6 +54,10 @@ public class EventManager : MonoBehaviour
 
     }
 
+    public void QuestAction()
+    {
+
+    }
 
     public void EndEvent()
     {
