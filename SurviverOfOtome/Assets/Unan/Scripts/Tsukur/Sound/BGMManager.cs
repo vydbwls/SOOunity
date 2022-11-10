@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class BGM
+public class BGM_T
 {
     public string name;
     public AudioClip clip;
